@@ -29,7 +29,6 @@ print(df)
 ```
 <img width="1093" height="514" alt="ds1 1" src="https://github.com/user-attachments/assets/c42a1547-69a1-4244-8f98-626a0383c8c8" />
 <img width="1091" height="678" alt="ds1 2" src="https://github.com/user-attachments/assets/d96fadce-c9f1-4b2b-877a-9e30a34027ff" />
-
 ```
 df.describe()
 
