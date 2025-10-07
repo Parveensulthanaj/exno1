@@ -39,25 +39,21 @@ df.info()
 
 ```
 <img width="818" height="486" alt="ds1 4" src="https://github.com/user-attachments/assets/cee7ec73-35ec-4149-975c-e23dce5cf097" />
-
 ```
 df.head(4)
 
 ```
 <img width="1756" height="393" alt="ds1 5" src="https://github.com/user-attachments/assets/62da64f3-f945-4e9f-8e00-77fa22fcde93" />
-
 ```
 df.tail(3)
 
 ```
 <img width="1759" height="348" alt="ds1 6" src="https://github.com/user-attachments/assets/7805abd0-65e3-4bbf-9fda-e48af758b46e" />
-
 ```
 df.isnull()
 
 ```
 <img width="1757" height="600" alt="ds1 7" src="https://github.com/user-attachments/assets/29b32806-549c-48c7-aa45-9b99a2fc3037" />
-
 ```
 df.notnull()
 
