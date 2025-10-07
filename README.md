@@ -21,49 +21,188 @@ STEP 5: Remove outliers using IQR
 STEP 6: Use zscore of to remove outliers
 
 # Coding and Output
-<img width="1919" height="866" alt="ds1 1" src="https://github.com/user-attachments/assets/be027f01-bbc1-448d-855e-a23e08650be0" />
-<img width="1919" height="881" alt="ds1 2" src="https://github.com/user-attachments/assets/300f715b-4787-4ae7-8d18-a14daeb91c2d" />
-<img width="1914" height="878" alt="ds1 3" src="https://github.com/user-attachments/assets/0242d0f8-6d02-43b2-9042-d211edcef6ff" />
-<img width="1919" height="873" alt="ds1 4" src="https://github.com/user-attachments/assets/fbd27ca1-18a1-4137-8c8e-87593dfe2f32" />
-<img width="1919" height="877" alt="ds1 5" src="https://github.com/user-attachments/assets/d8a10dff-87ed-449e-826b-055fddc8133b" />
-<img width="1919" height="876" alt="ds1 6" src="https://github.com/user-attachments/assets/0a7d5e2a-ab7e-4e49-a804-4e8e2e455dd9" />
-<img width="1919" height="877" alt="ds1 7" src="https://github.com/user-attachments/assets/6865cf27-cdd4-460b-9183-0eead7b21bec" />
-<img width="1919" height="884" alt="ds1 8" src="https://github.com/user-attachments/assets/da425eb1-49c3-4480-97b7-bd88e406c834" />
-<img width="1919" height="878" alt="ds1 9" src="https://github.com/user-attachments/assets/1b0170e3-70f5-460d-92e0-8f04931fe794" />
-<img width="1919" height="877" alt="ds1 10" src="https://github.com/user-attachments/assets/e6d83769-1d3e-4d46-b66d-f7e08a39b1e9" />
-<img width="1919" height="876" alt="ds1 11" src="https://github.com/user-attachments/assets/3c10eae5-45a9-47a7-b5d1-d530a4d06ccb" />
-<img width="1919" height="873" alt="ds1 12" src="https://github.com/user-attachments/assets/7ffb4959-2613-4754-91f8-461a5c80a868" />
-<img width="1919" height="861" alt="ds1 13" src="https://github.com/user-attachments/assets/93a60e7c-1deb-49fc-bb0b-2d5acaf13f18" />
-<img width="1919" height="878" alt="ds1 14" src="https://github.com/user-attachments/assets/a1f270e8-0883-49d9-8bd7-c6da23aab2a7" />
-<img width="1919" height="884" alt="ds1 15" src="https://github.com/user-attachments/assets/e9e9ab7c-acb3-44c8-b7fd-1ac788848866" />
-<img width="1919" height="883" alt="ds1 16" src="https://github.com/user-attachments/assets/177916a7-f757-45b3-90c0-df4dba632f7f" />
-<img width="1919" height="881" alt="ds1 17" src="https://github.com/user-attachments/assets/48c9c24f-4f3f-46a7-85e2-85fd6bb66682" />
-<img width="1919" height="883" alt="ds1 18" src="https://github.com/user-attachments/assets/350ffa33-5b92-44a9-b9c6-5d0da40179e7" />
-<img width="1919" height="876" alt="ds1 19" src="https://github.com/user-attachments/assets/1ba5c6e1-04fb-4e6e-8dbb-903436284f15" />
-<img width="1919" height="873" alt="ds1 20" src="https://github.com/user-attachments/assets/005cd239-085c-4e49-9660-660069f55df3" />
-<img width="1912" height="882" alt="ds1 21" src="https://github.com/user-attachments/assets/014095d0-958b-439f-b64d-9dac73ddfbb9" />
-<img width="1919" height="875" alt="ds1 22" src="https://github.com/user-attachments/assets/2963f840-00c7-4770-b7c5-ce489ffe2a5f" />
-<img width="1919" height="878" alt="ds1 23" src="https://github.com/user-attachments/assets/47ffff69-aa5d-44c9-8833-de6d07b64363" />
-<img width="1919" height="875" alt="ds1 25" src="https://github.com/user-attachments/assets/c51e63f8-b874-4913-8931-7b5e3040cea3" />
-<img width="1919" height="881" alt="ds1 26" src="https://github.com/user-attachments/assets/7f6b6148-9226-4596-89ea-c0ad507f00fc" />
-<img width="1919" height="881" alt="ds1 27" src="https://github.com/user-attachments/assets/7cdb3d0a-7d57-4ae9-be73-80612b19e517" />
-<img width="1919" height="883" alt="ds1 28" src="https://github.com/user-attachments/assets/49c9e46b-473c-40fd-9310-dfd2a02d77f0" />
-<img width="1917" height="875" alt="ds1 30" src="https://github.com/user-attachments/assets/fb962d11-ebce-4da8-89b9-7779e8d580ad" />
-<img width="1919" height="870" alt="ds1 31" src="https://github.com/user-attachments/assets/e9dbe739-8eb2-4702-8d37-92c1de21365d" />
-<img width="1919" height="874" alt="ds1 32" src="https://github.com/user-attachments/assets/9837d5d8-b9ae-4497-88a0-96b6f6f6d7a6" />
-<img width="1919" height="874" alt="ds1 33" src="https://github.com/user-attachments/assets/b197c561-4429-446d-a4b0-d24a6d19103e" />
-<img width="1301" height="835" alt="ds1 34" src="https://github.com/user-attachments/assets/c07fb1eb-a7eb-4cfb-ba12-b2ad10a66fac" />
-<img width="1919" height="870" alt="ds1 35" src="https://github.com/user-attachments/assets/610d9edd-3f4d-476b-92ae-ba37b2e90150" />
-<img width="1919" height="866" alt="ds1 36" src="https://github.com/user-attachments/assets/f2855930-2a24-431b-9797-7c1e30ca1f5e" />
-<img width="1917" height="878" alt="ds1 37" src="https://github.com/user-attachments/assets/2e4406c5-51cc-4450-bf49-8d9839a71147" />
-<img width="1919" height="872" alt="ds1 38" src="https://github.com/user-attachments/assets/83723a9f-ef9f-48e3-8cb9-5e6f383fdc60" />
-<img width="1919" height="860" alt="ds1 39" src="https://github.com/user-attachments/assets/1d922fca-bb76-4eb9-9adb-dd6090e78dd3" />
-<img width="1919" height="876" alt="ds1 40" src="https://github.com/user-attachments/assets/7faf2540-878e-439b-afba-bc1332d369f5" />
-<img width="1919" height="871" alt="ds1 41" src="https://github.com/user-attachments/assets/73242b50-2299-42d5-9379-3ef140361429" />
-<img width="1919" height="877" alt="ds1 42" src="https://github.com/user-attachments/assets/c6761b7a-4541-4ec8-ad63-0448964be9c6" />
-<img width="1919" height="881" alt="ds1 43" src="https://github.com/user-attachments/assets/a999c945-c6c1-494a-a881-2db87338420c" />
+```
+import pandas as pd
+df = pd.read_csv("Data_set.csv")
+print(df)
+```
+<img width="1093" height="514" alt="ds1 1" src="https://github.com/user-attachments/assets/c42a1547-69a1-4244-8f98-626a0383c8c8" />
+<img width="1091" height="678" alt="ds1 2" src="https://github.com/user-attachments/assets/d96fadce-c9f1-4b2b-877a-9e30a34027ff" />
+```
+df.describe()
+```
+<img width="1226" height="439" alt="ds1 3" src="https://github.com/user-attachments/assets/cca498fb-3b89-41fd-99f2-869ac4e85a17" />
+```
+df.info()
+```
+<img width="818" height="486" alt="ds1 4" src="https://github.com/user-attachments/assets/cee7ec73-35ec-4149-975c-e23dce5cf097" />
+```
+df.head(4)
+```
+<img width="1756" height="393" alt="ds1 5" src="https://github.com/user-attachments/assets/62da64f3-f945-4e9f-8e00-77fa22fcde93" />
+```
+df.tail(3)
+```
+<img width="1759" height="348" alt="ds1 6" src="https://github.com/user-attachments/assets/7805abd0-65e3-4bbf-9fda-e48af758b46e" />
+```
+df.isnull()
+```
+<img width="1757" height="600" alt="ds1 7" src="https://github.com/user-attachments/assets/29b32806-549c-48c7-aa45-9b99a2fc3037" />
+```
+df.notnull()
+```
+<img width="1755" height="586" alt="ds1 8" src="https://github.com/user-attachments/assets/1711bb1b-cd8e-4542-8d52-1ce76c3b882b" />
+```
+df.isnull().sum()
+```
+<img width="554" height="586" alt="ds1 9" src="https://github.com/user-attachments/assets/4fdc6239-c077-4a61-9479-1ee65abb047e" />
+```
+df.notnull().sum()
+```
+<img width="504" height="577" alt="ds1 10" src="https://github.com/user-attachments/assets/b136722a-38de-46c9-8349-0c79fe5c17bc" />
+```
+df.shape()
+df[df['rating'] > 8]
+```
+<img width="1849" height="639" alt="ds1 11" src="https://github.com/user-attachments/assets/9b5b3bab-48de-45d8-8f97-b445e51280b9" />
+```
+df[df['num_episodes'] > 20]
+```
+<img width="1759" height="547" alt="ds1 12" src="https://github.com/user-attachments/assets/d258a9f8-c482-4e43-8a62-6a3560cc4503" />
+```
+df.iloc[2:5 , :-3]
+```
+<img width="1326" height="240" alt="ds1 13" src="https://github.com/user-attachments/assets/bbc7e975-5c32-4617-9066-938a749985b1" />
+```
+df.iloc[[6,7,8],[1,2,3]]
+```
+<img width="727" height="224" alt="ds1 14()" src="https://github.com/user-attachments/assets/0f46c6bd-c3de-4890-912a-7865faccb96d" />
+```
+df.loc[3:5 , ['country' , 'num_episodes']]
+```
+<img width="502" height="229" alt="ds1 14" src="https://github.com/user-attachments/assets/1d36df2a-c9e5-444e-ae70-c139cb53d8bf" />
+```
+df['country'].value_counts()
+```
+<img width="544" height="327" alt="ds1 15" src="https://github.com/user-attachments/assets/3068a4ef-aec3-4c7b-a984-a73078c81f77" />
+```
+df.count()
+```
+<img width="507" height="581" alt="ds1 16" src="https://github.com/user-attachments/assets/352e4d6f-b844-499f-8881-1910bc6c9335" />
+```
+df.dropna(axis = 1)
+```
+<img width="824" height="600" alt="ds1 17" src="https://github.com/user-attachments/assets/570e40dc-86ec-4309-a057-bdcc7f1d7729" />
+```
+df.fillna(0)
+```
+<img width="1740" height="600" alt="ds1 18" src="https://github.com/user-attachments/assets/ede44748-feb7-4d68-b8d4-e9cb4078ff21" />
+```
+df.fillna(method = 'bfill')
+```
+<img width="1747" height="580" alt="ds1 19" src="https://github.com/user-attachments/assets/4f0e786c-4489-4324-a8f3-388118698783" />
+```
+df.interpolate()
+```
+<img width="1735" height="579" alt="ds1 21" src="https://github.com/user-attachments/assets/761e16b9-487f-4701-80da-845b3d97820d" />
+<img width="1685" height="464" alt="ds1 22" src="https://github.com/user-attachments/assets/44d12fb4-abb4-4507-93dc-cd5e3bb2a1d7" />
+```
+ffil = df.fillna(method = 'ffill')
+print(ffil)
+```
+<img width="1088" height="561" alt="ds1 23" src="https://github.com/user-attachments/assets/b2f65a2e-f011-43e5-9aa4-0c1972e288f1" />
+<img width="1751" height="650" alt="ds1 24" src="https://github.com/user-attachments/assets/c09cf480-7dd2-4098-b46d-ef3edb59f763" />
+```
+bfil = df.fillna(method = 'bfill')
+print(bfil)
+```
+<img width="1104" height="550" alt="ds1 25" src="https://github.com/user-attachments/assets/d3607637-bfce-4e35-835e-b340f75f7093" />
+```
+m = df.num_episodes.mean()
+print(m)
+```
+<img width="466" height="186" alt="ds1 27()" src="https://github.com/user-attachments/assets/7b5e1c3e-8aed-486a-bac4-24aa2ad04d36" />
+```
+m = df.fillna(df['num_episodes'].mean())
+print(m)
+```
+<img width="1151" height="371" alt="ds1 27" src="https://github.com/user-attachments/assets/c235c868-c9f4-4af8-90c5-86eb7ab2d8d4" />
+```
+fmean = df['lifetime_popularity_rank'].fillna(value=df['lifetime_popularity_rank'].mean())
+print(fmean)
+```
+<img width="1246" height="460" alt="ds1 29" src="https://github.com/user-attachments/assets/d97f5c10-6999-42a0-8a96-53e574952bc7" />
+```
+df = pd.read_csv('SAMPLEIDS.csv')
+print(df)
+```
 
+<img width="1115" height="554" alt="ds1 30" src="https://github.com/user-attachments/assets/f5f18e24-d1d6-4f7f-9476-1fe984ffca94" />
+<img width="513" height="642" alt="ds1 31" src="https://github.com/user-attachments/assets/2a9431d3-e232-4a90-add7-070822102b08" />
+```
+df['GENDER'].value_counts()
+```
+<img width="648" height="285" alt="ds1 32" src="https://github.com/user-attachments/assets/e7684260-74a5-45e8-b625-53e1902e33c7" />
+```
+x1 = df.dropna(how='any')
+print(x1)
+```
+<img width="1232" height="577" alt="ds1 33" src="https://github.com/user-attachments/assets/96f036b4-1a62-4975-96b3-a58218360685" />
+<img width="1076" height="505" alt="ds1 34" src="https://github.com/user-attachments/assets/1034985f-dff6-4982-945c-e03e9168b215" />
+```
+res = df.dropna(subset=['M1','M2','M3','M4'],how='any')
+print(res)
+```
+<img width="1113" height="591" alt="ds1 35" src="https://github.com/user-attachments/assets/49f24854-ab26-416d-928b-944b68dca89a" />
+<img width="1051" height="571" alt="ds1 36" src="https://github.com/user-attachments/assets/9ef43205-1ace-43f6-8158-5e54a7e88aa2" />
+```
+df=pd.read_csv('heights.csv')
+print(df)
+```
+<img width="595" height="561" alt="ds1 37" src="https://github.com/user-attachments/assets/9c6b7813-20fd-469c-a706-9a923c7cb765" />
+```
+import seaborn as sns
+import matplotlib.pyplot as plt
 
+sns.boxplot(data=df)
+plt.show()
+```
+<img width="1919" height="860" alt="ds1 39" src="https://github.com/user-attachments/assets/d1786eca-421b-4d93-9fd9-4691eb42073f" />
+```
+sns.scatterplot(data=df)
+```
+<img width="1919" height="876" alt="ds1 40" src="https://github.com/user-attachments/assets/9ffefb16-6aa4-46ef-b0a8-d35de487fd2a" />
+```
+q3 = df["height"].quantile(0.75)
+q1 = df["height"].quantile(0.25)
+iqr = q3 - q1
+print(iqr)
+```
+<img width="388" height="76" alt="ds1 41()" src="https://github.com/user-attachments/assets/728f6422-8d68-4f11-b444-9a1ad79b4fc4" />
+```
+q1, q3 = df["height"].quantile([0.25, 0.75])
+iqr = q3 - q1
+lb, ub = q1 - 1.5*iqr, q3 + 1.5*iqr
+outliers = df[(df["height"] < lb) | (df["height"] > ub)]
+
+print(f"Lower bound: {lb}\nUpper bound: {ub}\nOutliers:\n{outliers}")
+```
+<img width="474" height="201" alt="ds1 41" src="https://github.com/user-attachments/assets/491e97f8-44ee-493b-9625-c8234593303b" />
+```
+import numpy as np
+from scipy import stats
+
+z = np.abs(stats.zscore(df["height"]))
+z = pd.Series(z, name="height")   # make it a Series with name
+print(z)
+```
+<img width="457" height="452" alt="ds1 42" src="https://github.com/user-attachments/assets/d6689c00-e5b3-4bb3-b189-858023baf3a9" />
+```
+df1 = df[z<3]
+print(df1)
+```
+
+<img width="430" height="426" alt="ds1 43" src="https://github.com/user-attachments/assets/9cbaa27b-7008-4bfb-9f76-d06a772290eb" />
 
 
 # Result
